@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Byte & Bite</title>
+		<style>
+			body {
+    			background-image: url('https://imgcdn.stablediffusionweb.com/2024/11/22/20b46fcd-2870-4545-8696-e045abb5cb18.jpg');
+    			background-size: cover;
+    			background-attachment: fixed;
+    			background-repeat: no-repeat;
+    			color: #fff;
+    			font-family: 'Arial', sans-serif;
+    			text-align: center;
+    			padding: 0 20px;
+			}
+
+			header {
+    			background-color: rgba(0, 0, 0, 0.6);
+    			padding: 20px;
+    			border-radius: 10px;
+    			margin-bottom: 20px;
+			}
+
+			header img {
+    			border-radius: 50%;
+    			margin-bottom: 10px;
+			}
+
+			nav ul {
+    			list-style-type: none;
+    			padding: 0;
+			}
+
+			nav ul li {
+    			display: inline-block;
+    			margin: 0 15px;
+			}
+
+			nav ul li a {
+    			text-decoration: none;
+    			color: #f8f9fa;
+    			font-weight: bold;
+    			transition: color 0.3s;
+			}
+
+			nav ul li a:hover {
+    			color: #ffcb05;
+			}
+
+			#menu {
+    			background-color: rgba(0, 0, 0, 0.6);
+    			padding: 20px;
+    			border-radius: 10px;
+    			margin-bottom: 20px;
+			}
+
+			#menu h2, #order-form h2 {
+    			color: #ffcb05;
+    			margin-bottom: 10px;
+			}
+
+			article {
+    			background-color: rgba(255, 255, 255, 0.1);
+    			padding: 15px;
+    			border-radius: 10px;
+    			margin-bottom: 20px;
+    			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			}
+
+			article h3 {
+    			color: #ffcb05;
+			}
+
+			article p {
+    			color: #f1f1f1;
+			}
+
+			article img {
+    			border-radius: 10px;
+    			margin-bottom: 10px;
+			}
+
+			form {
+    			background-color: rgba(0, 0, 0, 0.6);
+    			padding: 20px;
+    			border-radius: 10px;
+    			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   				margin-bottom: 20px;
+			}
+
+			form label {
+    			display: block;
+    			margin-bottom: 5px;
+    			color: #f8f9fa;
+			}
+
+			form input[type="number"] {
+    			width: 50px;
+    			padding: 5px;
+    			border-radius: 5px;
+    			border: none;
+    			margin-bottom: 10px;
+			}
+
+			form input[type="checkbox"], form input[type="radio"] {
+    			margin-right: 5px;
+			}
+
+			form textarea {
+    			width: 100%;
+    			max-width: 400px;
+    			padding: 10px;
+    			border-radius: 5px;
+    			border: none;
+    			margin-bottom: 10px;
+			}
+
+			form input[type="submit"] {
+    			background-color: #ffcb05;
+    			color: #333;
+    			padding: 10px 20px;
+    			border: none;
+    			border-radius: 5px;
+    			cursor: pointer;
+    			transition: background-color 0.3s;
+			}
+
+			form input[type="submit"]:hover {
+    			background-color: #e0b806;
+			}
+
+			footer {
+    			background-color: rgba(0, 0, 0, 0.6);
+    			padding: 10px;
+    			border-radius: 10px;
+    			margin-top: 20px;
+			}
+
+			footer p {
+    			color: #f8f9fa;
+    			margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img width=100 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNVl1Vi_HBAAjPpNX4u1lu1jZq7hIc70gXw&s" alt="Restaurant img" id="header-img">
+			<h1> Byte & Bite</h1>
+			<nav>
+				<ul>
+          			<li><img width="50px" src="https://img.freepik.com/premium-vector/pixel-art-restaurant-menu-vector-icon-8bit-game-white-background_360488-366.jpg" alt="menu icon"><a href="#menu">Menu</a></li>
+          			<li><img width="50px" src="https://static.vecteezy.com/system/resources/previews/011/484/151/non_2x/pixel-art-shopping-cart-supermarket-trolley-icon-for-8bit-game-on-white-background-vector.jpg" alt="order icon"><a href="#order-form">Place Your Order</a></li>
+			</nav>
+		</header>
+		<main>
+			<section id="menu">
+				<h2>Menu</h2>
+				<article>
+					<figure>
+						<img width=500 src="https://i.pinimg.com/736x/09/b4/68/09b468d7bbd363a5dbfdcb1c586b1180.jpg" alt="Lasagna image" >
+						<h3>Lasagna</h3>
+						<p>Homemade pasta layered with slow-cooked beef ragù, creamy béchamel, and melted mozzarella.<br>"Nature's most perfect food"<br><i>$18</i></p>
+					</figure>
+				</article>
+				<article>
+					<figure>
+						<img width=500 src="https://thumb.ac-illust.com/cf/cf6a60d3e726704a5e48fe4ce7990713_t.jpeg" alt="Spaghetti image">
+						<h3>Spaghetti</h3>
+						<p>Fresh spaghetti tossed in a rich tomato sauce with basil and Parmesan.<br>(May come with bone)<br><i>$15</i></p>
+					</figure>
+				</article>
+				<article>
+					<figure>
+						<img width=500 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8XpTP6Onp-xXgnGeVBlCxWk1WVW5xaxQjA&s" alt="Pizza image">
+						<h3></h3>
+						<p>Wood-fired dough topped with San Marzano tomatoes, Fior di Latte, and fresh basil.<br>"A favorite among heroes in disguise."<br><i>$16</i></p>
+					</figure>
+				</article>
+			</section>
+
+			<section id="order-form">
+				<h2>Place Your Order</h2>
+				<form>
+					<h3>Lasagna</h3>
+					<label>Quantity: </label><input type="number" min="0"><br><br>
+					<label><input type="checkbox" name="lasagna-addons" value="garlic-breadsticks"> Garlic Breadsticks</label><br>
+  					<label><input type="checkbox" name="lasagna-addons" value="caesar-salad"> Caesar Salad</label><br>
+  					<label><input type="checkbox" name="lasagna-addons" value="meatballs"> Meatballs</label><br>
+  					<label><input type="checkbox" name="lasagna-addons" value="truffle-oil"> Truffle Oil Drizzle</label><br>
+  					<label><input type="checkbox" name="lasagna-addons" value="extra-mozzarella"> Extra Mozzarella</label><br><br>
+					<textarea placeholder="Any additional instructions"></textarea>
+					<br>
+					<h3>Spaghetti</h3>
+					<label><input type="radio" name="spaghetti-addons" value="bruschetta"> Bruschetta</label><br>
+  					<label><input type="radio" name="spaghetti-addons" value="sauteed-mushrooms"> Sautéed Mushrooms</label><br>
+  					<label><input type="radio" name="spaghetti-addons" value="parmesan-cheese"> Parmesan Cheese</label><br>
+  					<label><input type="radio" name="spaghetti-addons" value="grilled-shrimp"> Grilled Shrimp</label><br>
+  					<label><input type="radio" name="spaghetti-addons" value="spicy-sausage"> Spicy Sausage</label><br><br>
+  					<textarea placeholder="Any additional instructions"></textarea>
+					<br>
+					<h3>Pizza</h3>
+					<label>Quantity: </label><input type="number" min="0"><br><br>
+					<label><input type="checkbox" name="pizza-addons" value="garlic-knots"> Garlic Knots</label><br>
+  					<label><input type="checkbox" name="pizza-addons" value="caprese-salad"> Caprese Salad</label><br>
+  					<label><input type="checkbox" name="pizza-addons" value="hot-honey"> Hot Honey Drizzle</label><br>
+  					<label><input type="checkbox" name="pizza-addons" value="prosciutto"> Prosciutto</label><br>
+  					<label><input type="checkbox" name="pizza-addons" value="truffle-fries"> Truffle Fries</label><br><br>
+  					<textarea placeholder="Any additional instructions"></textarea>
+					<br><br>
+					<input type="submit" value="Go To Checkout">
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p>Made with love by SJMedina</p>
+			<p>@Medu</p>
+		</footer>
+	</body>
+</html>
